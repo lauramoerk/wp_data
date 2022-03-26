@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="headerdiv">
-      <h1> <span class="highlightme"> • Bike Stock • </span></h1>
+      <h1><span class="highlightme"> • Bike Stock • </span></h1>
       <nav>
         <ul>
           <li class="brandsnav">Brands we carry</li>
@@ -26,22 +26,28 @@
     </header>
 
     <main class="displaygrid">
-      <div class="productdiv">
-        <img src="" alt="" />
-        <h4>brand</h4>
-        <h2>type</h2>
-        <div class="displaydiv">
-          <div class="pricediv">
-            <p>Price - <span>$</span></p>
+      <template>
+        <div class="productdiv">
+          <img class="bikeimg" src="" alt="" />
+          <h4>brand</h4>
+          <h2>type</h2>
+          <div class="displaydiv">
+            <div class="pricediv">
+              <p>Price - <span class="pricespan">$</span></p>
+            </div>
+            <div class="colourdiv">
+              <p class="colour">
+                Colours -
+                <span></span>
+              </p>
+            </div>
+            <div class="stockdiv">
+              <p class="instock">In stock - <span>1</span></p>
+            </div>
+            <div class="buttondiv"><button>Full Specs</button></div>
           </div>
-          <div class="colourdiv"><p>Colours -</p></div>
-          <div class="stockdiv">
-            <p>In stock - <span>1</span></p>
-          </div>
-          <div class="buttondiv"><button>Full Specs</button></div>
         </div>
-      </div>
-
+      </template>
     </main>
   </body>
   <script src="index.js"></script>
